@@ -1,0 +1,30 @@
+.soft-border{ 
+border: 5px solid blue;
+margin: 20px;
+padding: 20px;
+}
+.center-title{
+    Margin: 0 auto;
+    width: 500px;
+}
+
+.inline-1 li{ 
+    display: inline;    
+   margin:10px;
+
+}
+
+@media (min-width: 768px) {                                                          
+    h1 {                                                                             
+        Color: green
+        font-size: 60px; 
+       
+        background-color:gold                                                            
+    }                                                                                
+}            
+@media (min-width: 320px) {                                                          
+    h1 {                                                                             
+        font-size: 20px;                                                             
+    }                                                                                
+}    
+
